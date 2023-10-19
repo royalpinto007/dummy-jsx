@@ -1,14 +1,12 @@
-import './App.css'
-// import Test from './components/Test'
+import './App.css';
+import Test from './components/Test';
 
-function App () {
-
+function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline text-center">Hello world!</h1> 
-      {/* <Test /> */}
-      </div>
-  )
+    <div>
+      <Test />
+    </div>
+  );
 }
 
 export default App;
